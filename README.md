@@ -1,4 +1,15 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This is a chat bot built using react and amazon lex. The styling is done with react-bootstrap. It uses jest 
-and enzyme for testing. In the future, I will add a cypress test to it. It uses prettier to format the code.
+This is a chat bot built using 
+* [react](https://github.com/facebook/react) 
+* [amplify](https://github.com/aws-amplify/amplify-js) 
+* [Amazon Lex](https://aws.amazon.com/lex/)
+###Styling
+* [React-bootstrap](https://github.com/react-bootstrap/react-bootstrap)
+ 
+### Tests
+* [Jest](https://github.com/facebook/jest)
+* [Enzyme](https://github.com/airbnb/enzyme)
+
+### Code formatting
+* [Prettier](https://github.com/prettier/prettier)
