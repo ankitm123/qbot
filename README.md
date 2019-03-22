@@ -4,7 +4,7 @@ This is a chat bot built using
 * [react](https://github.com/facebook/react) 
 * [amplify](https://github.com/aws-amplify/amplify-js) 
 * [Amazon Lex](https://aws.amazon.com/lex/)
-###Styling
+### Styling
 * [React-bootstrap](https://github.com/react-bootstrap/react-bootstrap)
  
 ### Tests
@@ -13,3 +13,6 @@ This is a chat bot built using
 
 ### Code formatting
 * [Prettier](https://github.com/prettier/prettier)
+
+### Todo
+- [ ] Cypress
