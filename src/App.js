@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Amplify, { Interactions } from "aws-amplify";
+import Amplify from "aws-amplify";
 import { ChatBot, AmplifyTheme } from "aws-amplify-react";
 import awsmobile from "./aws-exports";
 import { UINav, UIJumbo } from "./components";
@@ -15,6 +15,7 @@ const myTheme = {
   }
 };
 
+// Soon to be replaced with react hooks
 class App extends Component {
   handleComplete(err, confirmation) {
     if (err) {
@@ -32,7 +33,7 @@ class App extends Component {
         <UINav />
         <UIJumbo>
           <ChatBot
-            title="My Bot"
+            title="Q-Bot, the greatest bot ever"
             theme={myTheme}
             botName="qbot_dev"
             welcomeMessage="Welcome, how can I help you today?"
