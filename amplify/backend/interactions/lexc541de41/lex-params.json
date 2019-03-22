@@ -1,0 +1,65 @@
+{
+    "resourceName": "lexc541de41",
+    "botName": "qbot",
+    "intents": [
+        {
+            "cancelMessage": "Okay have a good day!",
+            "confirmationQuestion": "Your insurance premium every month is 15 dollars, do you want to buy your insurance?",
+            "slots": [
+                {
+                    "name": "Age",
+                    "type": "PersonAge",
+                    "prompt": "What is your age?",
+                    "required": true,
+                    "customType": true
+                },
+                {
+                    "name": "Location",
+                    "type": "PersonLocation",
+                    "prompt": "What city?",
+                    "required": true,
+                    "customType": true
+                },
+                {
+                    "name": "State",
+                    "type": "PersonState",
+                    "prompt": "Which state?",
+                    "required": true,
+                    "customType": true
+                }
+            ],
+            "utterances": [
+                "I would like to purchase an insurance",
+                "I would like to buy an insurance"
+            ],
+            "intentName": "PurchaseInsurance",
+            "newSlotTypes": [
+                {
+                    "slotType": "PersonAge",
+                    "slotTypeDescription": "Age of the person",
+                    "slotValues": [
+                        "28"
+                    ]
+                },
+                {
+                    "slotType": "PersonLocation",
+                    "slotTypeDescription": "Location of the person",
+                    "slotValues": [
+                        "Boston",
+                        "State"
+                    ]
+                },
+                {
+                    "slotType": "PersonState",
+                    "slotTypeDescription": "State where the person resides",
+                    "slotValues": [
+                        "Massachussets"
+                    ]
+                }
+            ]
+        }
+    ],
+    "outputVoice": "Joanna",
+    "sessionTimeout": 5,
+    "coppa": false
+}

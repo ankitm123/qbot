@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "q-bot-20190321185309-authRole",
+            "UnauthRoleArn": "arn:aws:iam::770326529933:role/q-bot-20190321185309-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::770326529933:role/q-bot-20190321185309-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "q-bot-20190321185309-deployment",
+            "UnauthRoleName": "q-bot-20190321185309-unauthRole",
+            "StackName": "q-bot-20190321185309",
+            "StackId": "arn:aws:cloudformation:us-east-1:770326529933:stack/q-bot-20190321185309/193a8b90-4c2c-11e9-a21c-0ad4d2e93658"
+        },
+        "categories": {
+            "auth": {
+                "cognitobe7aafec": {}
+            }
+        }
+    }
+}
